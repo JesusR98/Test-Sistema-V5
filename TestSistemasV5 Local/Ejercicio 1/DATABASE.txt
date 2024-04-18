@@ -1,0 +1,9 @@
+CREATE DATABASE test_v5;
+
+CREATE TABLE clients (
+    id INT NOT NULL PRIMARY KEY,
+    firstName varchar(255),
+    lastName varchar(255),
+    address varchar(255),
+    city varchar(255)
+);
